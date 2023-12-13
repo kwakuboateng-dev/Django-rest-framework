@@ -1,18 +1,19 @@
 POST http://localhost:8000/login
 Content-Type: application/json
 
-{ "username": "nana", "passowrd": "Pass1234"}
+{ "username": "tony", "password": "123456"}
 
 ###
 
 POST http://localhost:8000/signup
 Content-Type: application/json
 
-{ "username": "nana", "passowrd": "Pass1234", "email": "nana@gmail.com"}
+{ "username": "tony1", "password": "123456", "email": "tony@gmail.com"}
 
 ###
 
 GET http://localhost:8000/test_token
 Content-Type: application/json
+Authorization: Token 6eb8e8d354876185402c17086fc420b48a4041c1
 
 {}
